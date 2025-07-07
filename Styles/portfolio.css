@@ -44,7 +44,9 @@ border: none;
 .secondary-bg {
     background-color: #FFF8F3;
 }
-
+.text-center{
+    text-align: center;
+}
 
 
 /* Nav Styles */
@@ -96,7 +98,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+main section {
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
 
 
 /* About Styles */
@@ -104,7 +109,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+   
 }
 .item-description {
     font: 600;
@@ -113,4 +118,32 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+/* Skills section Styles */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skills-container{
+    padding: 30px;
+   box-shadow: 0px 6px 50px 0px rgb(0 ,0 , 0, 0.6);
+border-radius: 5px;
+}
+ /* resume section styles */
+ .resume-container {
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title {
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px; font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr {
+    margin: 30px 5px;
+}
+.resume-download-cv {
+   margin-top: 50px; 
 }
